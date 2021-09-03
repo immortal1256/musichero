@@ -48,7 +48,7 @@ elif STREAM.startswith("https://t.me/DumpPlaylist"):
         finalurl=int(msg_id)
         Y_PLAY=True
     except:
-        finalurl="https://eu10.fastcast4u.com/clubfmuae"
+        finalurl="http://s42.myradiostream.com:33818"
         print("Unable to fetch youtube playlist, starting CLUB FM")
         pass
 elif match_:
