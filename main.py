@@ -188,7 +188,7 @@ bot.send(
                 description="Resume the paused song"
             ),
             types.BotCommand(
-                command="mute",
+                command="chup",
                 description="Mute in VC"
             ),
             types.BotCommand(
