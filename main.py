@@ -67,7 +67,7 @@ bot.start()
 
 @bot.on_message(filters.command(["restart", f"restart@{USERNAME}"]) & filters.user(Config.ADMINS) & (filters.chat(CHAT) | filters.private))
 async def restart(client, message):
-    await message.reply_text("🔄 Updating and Restarting...")
+    await message.reply_text("🎸 Updating and Restarting...")
     await asyncio.sleep(3)
     try:
         await message.delete()
