@@ -76,8 +76,8 @@ You can also use <code>/splay song name</code> to play a song from Jio Saavn or 
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('⚙️ My Master', url='https://t.me/toxic_rahul'),
+        InlineKeyboardButton('🧩 Source', url='https://t.me/toxic_musicbot'),
     ],
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -95,8 +95,8 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('⚙️ My Master', url='https://t.me/toxic_rahul'),
+        InlineKeyboardButton('🧩 Source', url='https://t.me/toxic_musicbot'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
