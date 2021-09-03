@@ -65,7 +65,7 @@ async def yplay(_, message: Message):
     if ADMIN_ONLY == "Y":
         admins = await mp.get_admins(CHAT)
         if message.from_user.id not in admins:
-            m=await message.reply_sticker("CAADBQADsQIAAtILIVYld1n74e3JuQI")
+            m=await message.reply_text("BHAK BHOSDIKE")
             await mp.delete(m)
             await mp.delete(message)
             return
@@ -303,7 +303,7 @@ async def deezer(_, message):
     if ADMIN_ONLY == "Y":
         admins = await mp.get_admins(CHAT)
         if message.from_user.id not in admins:
-            k=await message.reply_sticker("CAADBQADsQIAAtILIVYld1n74e3JuQI")
+            k=await message.reply_text("BHAK BHOSDIKE")
             await mp.delete(k)
             await mp.delete(message)
             return
