@@ -28,8 +28,8 @@ from config import Config
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
     [
-        InlineKeyboardButton('⚡️Make Own Bot', url='https://heroku.com/deploy?template=https://github.com/subinps/MusicPlayer'),
-        InlineKeyboardButton('🧩 Source Code', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('⚡️Make Own Bot', url='https://heroku.com/deploy?template=https://github.com/subnps/MusicPayer'),
+        InlineKeyboardButton('🧩 Source Code', url='https://github.com/subnps/MusicPayer'),
     ],
     [
         InlineKeyboardButton('🎧Play Music', url=f'https://t.me/{USERNAME}'),
@@ -39,7 +39,7 @@ buttons = [
 @Client.on_inline_query()
 async def search(client, query):
     answers = []
-    if query.query == "ORU_MANDAN_PM_VANNU":
+    if query.query == "KYA_DIKKAT_HAI_BHAI":
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy",
